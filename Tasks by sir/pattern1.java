@@ -131,29 +131,56 @@ public class pattern1{
 		}
 		
 	}
-}
+}  
     1
    a b
   1 2 3
  a b c d
  */
- 
+  
  public class pattern1{
 	public static void main(String [] args){
 		int n=4;
+		for(int s=0;s<=n+1;s++){
+			   System.out.print(" "); 
+			  }System.out.print(" *\n"); 
 		for(int i=1;i<=n;i++){
-			 System.out.print("");
-			  for(int s=1;s<=n-i;s++){
+			 System.out.print(" ");
+			  for(int s=0;s<=n-i;s++){
 			   System.out.print(" "); 
 			  }
 			   System.out.print("*");
 			    for(int j=1;j<=i;j++){	
 				System.out.print(" "+j); 
 			} System.out.print(" *");
-			System.out.println(); 
-			
-			
+			System.out.println(); 		
 		}
+		for(int i=1;i<=n+3;i++){
+		System.out.print(" *");}
 		
 	}
 }
+
+ 
+ /*
+ public class pattern1{
+	public static void main(String [] args){
+		int n=4;
+		for(int i=1;i<=n;i++){
+				
+		for(int j=1;j<=n;j++){
+			if(i==1||j==1||i==n||j==n)
+			System.out.print(" *");
+		else
+			System.out.print(" -");
+		} System.out.println(); 
+		}		
+	}
+ }	
+ 
+ * * * *
+ * - - *
+ * - - *
+ * * * *
+
+*/
