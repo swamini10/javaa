@@ -19,13 +19,13 @@ public class MenuDrivenCalculator
 				System.out.println(" add : "+(num1+num2) );			
 		}
 		if(op==2){
-				System.out.println(" add : "+(num1-num2) );			
+				System.out.println(" sub : "+(num1-num2) );			
 		}
 		if(op==3){
-				System.out.println(" add : "+(num1*num2) );			
+				System.out.println(" div : "+(num1*num2) );			
 		}
 		if(op==4){
-				System.out.println(" add : "+(num1/num2) );			
+				System.out.println(" mul : "+(num1/num2) );			
 		}
 		if(op>4){
 				System.out.println(" invalid option ");			
