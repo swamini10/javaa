@@ -8,8 +8,8 @@ public class invertpyramid{
 			 {
                 System.out.print(" ");
             }
-			for(int star=1;star<=line; star++){
-				System.out.print(" *");
+			for(int star=1;star<=(2*line)-1; star++){
+				System.out.print("*");
 		   }
 		   System.out.println();
 		}
@@ -17,9 +17,9 @@ public class invertpyramid{
 	}
 }
 /*
- * * * * *
-  * * * *
-   * * *
-    * *
-     *
+*********
+ *******
+  *****
+   ***
+    *
 */
