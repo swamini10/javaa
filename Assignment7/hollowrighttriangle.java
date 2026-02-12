@@ -13,3 +13,9 @@ public class hollowrighttriangle{
 		}
 	}
 }
+
+ *
+ * *
+ *   *
+ *     *
+ * * * * *
