@@ -15,10 +15,12 @@ public class pluspattern {
 		}
 	}
 }
-
+/*
 
      *
      *
  * * * * *
      *
      *
+
+ */
