@@ -9,7 +9,7 @@ public class zigzag{
         for(int s = 1; s <= n-i; s++)
             System.out.print(" ");
         // First star
-        System.out.print("1");
+        System.out.print("*");
         // Space inside left V
         for(int s = 1; s <= 2*i-3; s++)
             System.out.print(" ");
