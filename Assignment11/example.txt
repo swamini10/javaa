@@ -1,0 +1,43 @@
+1. Write a Java program to create a thread using the Thread class.
+
+2. Write a Java program to create a thread using the Runnable interface.
+
+3. Create two threads:
+
+One thread prints numbers 1 to 50
+
+Another thread prints 50 to 1
+
+4. Write a program where two threads print "Hello" and "World" simultaneously.
+
+5. Create a program where one thread prints even numbers and another prints odd numbers from 1 to 100.
+
+6. Write a program to demonstrate the use of Thread.sleep().
+
+7. Write a Java program that demonstrates Thread priority.
+
+8. Write a program where 3 threads print their thread names and IDs.
+
+9. Write a program to demonstrate the use of join() method.
+
+10. Write a program to demonstrate the isAlive() method.
+
+11. Create a program where multiple threads access the same method and print a message.
+
+12. Write a program demonstrating synchronization using synchronized keyword
+
+13. Write a Java program to solve the Producer-Consumer problem using threads.
+
+14. Write a program demonstrating thread communication using wait() and notify().
+
+15. Create a program where 5 threads increment the same counter variable and maintain synchronization.
+
+16. Write a program that demonstrates Deadlock between two threads.
+
+17. Write a program to demonstrate Thread Pool using ExecutorService.
+
+18. Write a Java program that performs parallel matrix addition using threads.
+
+19. Write a program to calculate the sum of an array using multiple threads.
+
+20. Create a program where multiple threads read and write to a shared resource safely.

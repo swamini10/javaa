@@ -1,0 +1,29 @@
+Write a program to demonstrate constructor chaining across multiple classes.
+
+Create a class with private constructor and test object creation.
+
+Write a program to demonstrate static variable counting objects created.
+
+Create a class where constructor throws an exception if value is negative.
+
+Write a program to show constructor calling parent constructor using super().
+
+Create a program demonstrating inheritance with constructors.
+
+Write a program where child constructor calls both super() and this().
+
+Create a class where constructor initializes final variables.
+
+Write a program showing constructor execution order in inheritance.
+
+Create a class with multiple constructors and method overloading together.
+
+Write a program demonstrating constructor in abstract class.
+
+Create a class that prevents object creation using private constructor (Singleton idea).
+
+Write a program to clone an object using copy constructor.
+
+Create a program where constructor initializes a list/collection.
+
+Write a program that demonstrates constructor inside inner class.

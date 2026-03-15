@@ -1,0 +1,107 @@
+Create a class Student with a default constructor that prints "Student Object Created".
+
+Create a class Car with a constructor that initializes brand and price.
+
+Write a program to demonstrate constructor initialization of instance variables.
+
+Create a class Employee with constructor parameters name and salary, and display them.
+
+Write a program that creates multiple objects using the same constructor.
+
+Create a class Book with constructor that initializes title and author.
+
+Write a program to show the difference between constructor and method.
+
+Create a constructor that assigns default values to variables.
+
+Write a program to demonstrate constructor overloading with 2 constructors.
+
+Create a class Rectangle with constructor that calculates area.
+
+Write a program to print a message whenever an object is created.
+
+Create a class with no constructor and check what happens when the object is created.
+
+Write a program to initialize 3 variables using constructor.
+
+Create a class Mobile with constructor parameters model and price.
+
+Write a program that prints the number of times constructor is called.
+
+Intermediate Level (16–35)
+
+Write a program demonstrating constructor overloading with 3 constructors.
+
+Create constructors for a class Student:
+
+default
+
+with name
+
+with name and marks
+
+Write a program to show constructor chaining using this().
+
+Create a program where one constructor calls another constructor.
+
+Write a program to initialize an array using constructor.
+
+Create a constructor that calculates and prints the square of a number.
+
+Write a program that passes object as a parameter to constructor.
+
+Create a class where constructor accepts another object.
+
+Write a program to show difference between local variables and constructor variables.
+
+Create a program to demonstrate copy constructor.
+
+Write a program to create 5 objects using constructor and display their values.
+
+Create a constructor that calculates sum of two numbers.
+
+Write a program to initialize student marks and calculate average using constructor.
+
+Create a constructor that checks whether a number is even or odd.
+
+Write a program where constructor calculates factorial of a number.
+
+Create a program that uses constructor to reverse a number.
+
+Write a constructor program that checks prime number.
+
+Create a constructor that accepts user input and stores it in variables.
+
+Write a program to demonstrate constructor overloading using different data types.
+
+Create a program that calculates simple interest using constructor.
+
+Advanced / Tricky Level (36–50)
+
+Write a program to demonstrate constructor chaining across multiple classes.
+
+Create a class with private constructor and test object creation.
+
+Write a program to demonstrate static variable counting objects created.
+
+Create a class where constructor throws an exception if value is negative.
+
+Write a program to show constructor calling parent constructor using super().
+
+Create a program demonstrating inheritance with constructors.
+
+Write a program where child constructor calls both super() and this().
+
+Create a class where constructor initializes final variables.
+
+Write a program showing constructor execution order in inheritance.
+
+Create a class with multiple constructors and method overloading together.
+
+Write a program demonstrating constructor in abstract class.
+
+Create a class that prevents object creation using private constructor (Singleton idea).
+
+Write a program to clone an object using copy constructor.
+
+Create a program where constructor initializes a list/coll
