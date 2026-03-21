@@ -1,4 +1,4 @@
-//Create a class where constructor throws an exception if value is negative.
+.
 public class Exception1 {
     private int value;
 
