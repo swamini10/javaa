@@ -5,6 +5,7 @@
 // 	1   2    3    4    5
 // 	Input the position where to delete : 3
 // 	Expected Output : The new list is : 1 2 3 5
+
 import java.util.Scanner;
 public class deleposition{
 		public static void main(String args[]){
