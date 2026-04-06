@@ -23,7 +23,8 @@ public class repeatingele {
             for (int j = i + 1; j < array.length; j++) {
                 if (array[i] == array[j]) {
                     System.out.print("\nrepeating element is: " + array[i]);
-					return; // Exit after finding the first repeating element
+                   // return; // Exit after finding the first repeating element
+               
                 }
             }
         }
