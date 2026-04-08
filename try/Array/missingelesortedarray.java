@@ -1,4 +1,4 @@
-// Q38. Write a program in java to find the smallest missing element from a sorted array?
+// Q38. Write a program in java to find the 	?
 		
 // Expected Output :
 // 		The given array is : 0 1 3 4 5 6 7 9
