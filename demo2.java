@@ -15,7 +15,6 @@ public class demo2{
 	
 	//sum of digits of a number
 	public static int sumofdigits(int num){
-		int or =num;
 		int count=0;
 		while(num>0){
 			int digit = num%10;
