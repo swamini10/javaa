@@ -43,14 +43,30 @@ public class demo2{
                 return 0;
         }
     }
+	//armstrong
+	 public static boolean armstrong(int num) {
+        int original = num;
+        int sum = 0;
+
+        int digits = String.valueOf(num).length();
+
+        while (num > 0) {
+            int digit = num % 10;
+            sum += Math.pow(digit, digits);
+            num = num / 10;
+        }
+
+        return sum == original;
+    }
 	
 	public static void main (String args[]){
 		  int a = 30;
         int b = 20;
-        int num = 121;
+        int num = 153;
         int ch = 1;
 		System.out.println(palindrome(num));
 		System.out.println(sumofdigits(num));
 		System.out.println(calculator(ch,a,b));
+		System.out.println(armstrong(ch));
 	}
 }
