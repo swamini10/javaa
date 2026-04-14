@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Iterator;
 public class learnArraylist {
 	public static void main (String args[]){
 		/*
@@ -73,6 +73,36 @@ public class learnArraylist {
 		
 		System.out.println("list after add : ");	
 		System.out.println(list);
+		
+		//  tells the size of current list
+		System.out.println(list.size());
+		
+		//Traverse each element from list
+		/*
+		Iterate entire list 
+		1. by for loop
+		2. by for each 
+		3. by Iterator
+		*/
+		
+		//by for loop
+		System.out.println("\nfor loop :");
+		for(int i=0; i< list.size();i++){
+		System.out.println("for element :"+list.get(i));
+		}
+		
+		System.out.println("\nfor each :");
+		for(String element: list){
+		System.out.println("for Each element :"+ element);
+			
+		}
+		
+		System.out.println("\nIterator :");
+		Iterator<String> li = list.iterator();
+		while(li.hasNext()){// until there has a next element it will print 
+		System.out.println("Iterator"+li.next());	//next element in the iterator through this function
+		}
+		
 	}
 }
 
