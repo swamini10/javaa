@@ -23,10 +23,34 @@ public class demo2{
 		}
 		return count;
 	}
+	//switch case for calculator
+	public static int calculator(int ch, int a, int b){
+        switch(ch){
+            case 1:
+                return a + b;
+
+            case 2:
+                return a - b;
+
+            case 3:
+                return a * b;
+
+            case 4:
+                return a / b;
+
+            default:
+                System.out.println("Invalid choice");
+                return 0;
+        }
+    }
 	
 	public static void main (String args[]){
-		int num=122321;
+		  int a = 30;
+        int b = 20;
+        int num = 121;
+        int ch = 1;
 		System.out.println(palindrome(num));
 		System.out.println(sumofdigits(num));
+		System.out.println(calculator(ch,a,b));
 	}
 }
