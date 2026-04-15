@@ -33,7 +33,7 @@ public class Test {
         }
         System.out.println(map);
 		*/
-		
+		/*
 		//Sort a List
 		
 	  int[] arr = {9, 6, 7, 3, 1, 4, 2};
@@ -48,6 +48,16 @@ public class Test {
         // Descending sort
         Collections.sort(list, Collections.reverseOrder());
         System.out.println("Descending: " + list);
-    
+    */
+	//Find Second Largest Element
+	int[] arr = {9, 6, 7, 3, 1, 4, 2};
+        List<Integer> list = new ArrayList<>();
+        // Add elements to list
+        for (int num : arr) {
+            list.add(num);
+        }
+		Collections.sort(list);
+      System.out.println(list.get(list.size() - 2));
+	
 	}
 }
