@@ -9,7 +9,7 @@ public class DivisibleBy4Or6 {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        if (n % 4 == 0 || n % 6 == 0) {
+        if (n % 4 == 0 && n % 6 == 0) {
             System.out.println("The number is divisible by 4 or 6.");
         } else {
             System.out.println("The number is not divisible by 4 or 6.");
