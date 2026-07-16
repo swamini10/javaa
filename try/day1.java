@@ -42,6 +42,7 @@ the final out put is look like
 * * * *
 */
 
+
 import java.util.Scanner;
 public class day1 {
 
